@@ -1,0 +1,13 @@
+Started with UFW inactive → enabled it.
+
+Allowed SSH (port 22).
+
+Added a deny rule for Telnet (port 23).
+
+Verified it showed up.
+
+Tested the block.
+
+Deleted the deny rule.
+
+Verified it’s gone →  current output shows only SSH rules.
